@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 9vh;
+    background: #082c38;
 }
 #nameimg{
     display: flex;
@@ -15,7 +17,7 @@
 #nameimg p{
     font-size: 120%;
     text-transform: uppercase;
-    color: rgb (45, 128, 196) ; 
+    color: #c19976 ; 
     font-weight: bold;
     text-shadow: 3px 6px 3px rgb(82, 110, 146);
 }
@@ -24,9 +26,13 @@
 }
 #navdiv a{
     text-decoration: none;
-    color: black;
+    color: #c19976;
     gap: 40px;
+    padding: 0 20px 0 20px;
     margin: 0px 50px 0px 60px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px #c19976,
+    0 0 25px #c19976;
 }
 .firstdiv{
     border: 1px solid black;
@@ -37,30 +43,44 @@
 }
 #social{
     border: 1px solid black;
-    width: 10%;
+    width: 20%;
     height: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
+    justify-content: center;
+    background: linear-gradient(60deg, #082c38,#e6e6e6);
+    /* flex-direction: column; */
+    /* gap: 5vh; */
 }
 #social a{
     display: flex;
-    flex-direction: column;
-    /* flex-direction: row; */
-    /* justify-content: center; */
     height: 5vh;
-    width: 20%;
+    width: 5vw;
+    flex-direction: row;
+    /* justify-content: center; */
 }
 #textdiv{
     border: 1px solid black;
-    width: 50%;
+    width: 80%;
+    background: #082c38;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #imgdiv{
-    border: 1px solid black;
-    width: 40%;
-    height: 100%;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 3vh;
     background-image: url(../res/IMG_E0082.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    box-shadow: 5px 5px 10px #c19976;
+}
+#imgdiv:hover{
+    transform: skewX(-25deg);
 }

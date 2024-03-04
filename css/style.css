@@ -21,19 +21,28 @@
     font-weight: bold;
     text-shadow: 3px 6px 3px rgb(82, 110, 146);
 }
-#nameimg img{
-    height: 12vh;
+#nameimg p:hover{
+    box-shadow: 0 0 5px #c19976,
+    0 0 30px #c19976, 0 0 70px #c19976,
+    0 0 150px #c19976, 0 0 250px #c19976;
 }
 #navdiv a{
     text-decoration: none;
-    color: #c19976;
+    color: #082c38;
     gap: 40px;
-    padding: 0 20px 0 20px;
+    padding: 5px 30px 5px 30px;
     margin: 0px 50px 0px 60px;
-    border: 1px solid black;
+    border: 1px solid #082c38;
+    background-color: #c19976;
     box-shadow: 0 0 10px #c19976,
     0 0 25px #c19976;
 }
+#navdiv a:hover{
+    box-shadow: 0 0 5px #c19976,
+    0 0 30px #c19976, 0 0 70px #c19976,
+    0 0 150px #c19976, 0 0 250px #c19976;
+}
+
 .firstdiv{
     border: 1px solid black;
     display: flex;
@@ -49,15 +58,12 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(60deg, #082c38,#e6e6e6);
-    /* flex-direction: column; */
-    /* gap: 5vh; */
 }
 #social a{
     display: flex;
     height: 5vh;
     width: 5vw;
     flex-direction: row;
-    /* justify-content: center; */
 }
 #textdiv{
     border: 1px solid black;
@@ -81,6 +87,53 @@
     background-position: center;
     box-shadow: 5px 5px 10px #c19976;
 }
-#imgdiv:hover{
+/* #imgdiv:hover{
     transform: skewX(-25deg);
+} */
+#projectdiv{
+    display: flex;
+    flex-direction: column;
+    background: #082c38;
+    width: 80%;
+}
+.works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 50px 20px 50px;
+}
+.works h1{
+    margin-bottom: 2vh;
+    color: #c19976;
+}
+.works a{
+    text-decoration: none;
+    margin-bottom: 2vh;
+    font-size: 18px;
+    color: #c19976;
+}
+.works a:hover{
+    text-decoration: underline;
+}
+.works span{
+    font-size: 30px;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.course p{
+    text-decoration: none;
+    margin-bottom: 2vh;
+    font-size: 18px;
+    color: #c19976;
+}
+.course h1{
+    margin-bottom: 1vh;
+    color: #c19976;
+}
+.course h2{
+    margin-bottom: 1vh;
+    color: #c19976;
 }

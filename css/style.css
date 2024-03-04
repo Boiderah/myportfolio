@@ -25,6 +25,7 @@
     box-shadow: 0 0 5px #c19976,
     0 0 30px #c19976, 0 0 70px #c19976,
     0 0 150px #c19976, 0 0 250px #c19976;
+    transition: 2s;
 }
 #navdiv a{
     text-decoration: none;
@@ -39,10 +40,10 @@
 }
 #navdiv a:hover{
     box-shadow: 0 0 5px #c19976,
-    0 0 30px #c19976, 0 0 70px #c19976,
+    0 0 30px #c19976, 0 0 100px #c19976,
     0 0 150px #c19976, 0 0 250px #c19976;
+    transition: 2s;
 }
-
 .firstdiv{
     border: 1px solid black;
     display: flex;
@@ -51,7 +52,7 @@
     height: 100vh;
 }
 #social{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 20%;
     height: 100%;
     display: flex;
@@ -66,7 +67,7 @@
     flex-direction: row;
 }
 #textdiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80%;
     background: #082c38;
     color: white;
@@ -86,10 +87,14 @@
     background-size: cover;
     background-position: center;
     box-shadow: 5px 5px 10px #c19976;
+    transition: 2s;
 }
-/* #imgdiv:hover{
-    transform: skewX(-25deg);
-} */
+#imgdiv:hover{ 
+    box-shadow: 0 0 5px #c19976,
+    0 0 30px #c19976, 0 0 100px #c19976,
+    0 0 150px #c19976, 0 0 250px #c19976;
+    transition: 2s;
+}
 #projectdiv{
     display: flex;
     flex-direction: column;

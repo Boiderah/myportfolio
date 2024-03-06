@@ -14,14 +14,14 @@
     margin-left: -80px;
     align-items: center;
 }
-#nameimg p{
-    font-size: 120%;
+#nameimg h1{
+    font-size: 30px;
     text-transform: uppercase;
     color: #c19976 ; 
     font-weight: bold;
     text-shadow: 3px 6px 3px rgb(82, 110, 146);
 }
-#nameimg p:hover{
+#nameimg h1:hover{
     box-shadow: 0 0 5px #c19976,
     0 0 30px #c19976, 0 0 70px #c19976,
     0 0 150px #c19976, 0 0 250px #c19976;
@@ -29,12 +29,12 @@
 }
 #navdiv a{
     text-decoration: none;
-    color: #082c38;
+    color: #c19976;
     gap: 40px;
     padding: 5px 30px 5px 30px;
     margin: 0px 50px 0px 60px;
     border: 1px solid #082c38;
-    background-color: #c19976;
+    background-color: #082c38;
     box-shadow: 0 0 10px #c19976,
     0 0 25px #c19976;
 }
@@ -45,11 +45,10 @@
     transition: 2s;
 }
 .firstdiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
-    /* justify-content: ; */
-    height: 100vh;
+    height: 91vh;
 }
 #social{
     /* border: 1px solid black; */
@@ -58,19 +57,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(60deg, #082c38,#e6e6e6);
+    background: linear-gradient(60deg, #c19976, #082c38);
 }
 #social a{
     display: flex;
-    height: 5vh;
-    width: 5vw;
+    height: 7vh;
+    width: 7vw;
     flex-direction: row;
 }
 #textdiv{
     /* border: 1px solid black; */
-    width: 80%;
+    width: 100%;
     background: #082c38;
-    color: white;
+    color: #c19976;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,8 +78,8 @@
 #imgdiv{
     /* border: 1px solid black; */
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 330px;
+    height: 330px;
     margin-bottom: 3vh;
     background-image: url(../res/IMG_E0082.JPG);
     background-repeat: no-repeat;
@@ -94,6 +93,17 @@
     0 0 30px #c19976, 0 0 100px #c19976,
     0 0 150px #c19976, 0 0 250px #c19976;
     transition: 2s;
+}
+#socialhandle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+#socialhandle a{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 5vw;
 }
 #projectdiv{
     display: flex;
